@@ -1,0 +1,19 @@
+## IMPORTANT!!!
+
+# If you plan to enable RCON in your server, please follow the bellow steps before you start the server for the first time:
+
+1- Open the "server.properties":
+    Go to line 8 to set your server's difficulty.
+    Go to line 12 and enable RCON.
+    Go to line 42 and set a strong password.
+
+2- Open the Dockerfile and set the "Xmx" according to your server's RAM capacity.
+    If your server has a maximum of 16GB of RAM and there are no other services running, I suggest you to set the Xmx at 14G as it is right now.
+
+Now you can simply run the comand bellow to start the server.
+
+'''
+docker-compose up
+'''
+
+Do not forget to open the Ports 25565 for minecraft server and 25575 for rcon
