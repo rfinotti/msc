@@ -1,0 +1,16 @@
+version: '3.9'
+services:
+  server:
+    container_name: Mincraft_server
+    build:
+      context: .
+    ports:
+      - 25565:25565
+      - 25575:25575
+    volumes:
+      - ./server-data:/server
+
+volumes:
+  server-data:
+
+    

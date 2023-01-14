@@ -1,0 +1,6 @@
+FROM openjdk:latest
+
+WORKDIR /server
+
+CMD echo "Starting Minecraft Server" && \
+    java -Xmx14G -jar paper-1.19.3-375.jar 

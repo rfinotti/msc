@@ -1,0 +1,92 @@
+[18:58:54] [ServerMain/INFO]: Building unoptimized datafixer
+[18:58:56] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:58:58] [ServerMain/INFO]: Loaded 7 recipes
+[18:58:59] [Server thread/INFO]: Starting minecraft server version 1.19.3
+[18:58:59] [Server thread/WARN]: ****************************
+[18:58:59] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[18:58:59] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[18:58:59] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[18:58:59] [Server thread/WARN]: ****************************
+[18:58:59] [Server thread/INFO]: Loading properties
+[18:58:59] [Server thread/INFO]: This server is running Paper version git-Paper-375 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: 7a64b85)
+[18:58:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:58:59] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:58:59] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[18:59:00] [Server thread/INFO]: Default game type: SURVIVAL
+[18:59:00] [Server thread/INFO]: Generating keypair
+[18:59:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:59:00] [Server thread/INFO]: Using epoll channel type
+[18:59:00] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:59:00] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[18:59:00] [Server thread/ERROR]: Could not load 'plugins/Xaeros_Minimap_22.17.0_Forge_1.19.3.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:179) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:157) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.loadPlugins(CraftServer.java:436) ~[paper-1.19.3.jar:git-Paper-375]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:273) ~[paper-1.19.3.jar:git-Paper-375]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1101) ~[paper-1.19.3.jar:git-Paper-375]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.19.3.jar:git-Paper-375]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 7 more
+[18:59:00] [Server thread/ERROR]: Could not load 'plugins/guardvillagers-1.19.3-1.5.4.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:179) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:157) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.loadPlugins(CraftServer.java:436) ~[paper-1.19.3.jar:git-Paper-375]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:273) ~[paper-1.19.3.jar:git-Paper-375]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1101) ~[paper-1.19.3.jar:git-Paper-375]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.19.3.jar:git-Paper-375]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 7 more
+[18:59:00] [Server thread/ERROR]: Could not load 'plugins/XaerosWorldMap_1.28.7_Forge_1.19.3.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:179) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:157) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.loadPlugins(CraftServer.java:436) ~[paper-1.19.3.jar:git-Paper-375]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:273) ~[paper-1.19.3.jar:git-Paper-375]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1101) ~[paper-1.19.3.jar:git-Paper-375]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.19.3.jar:git-Paper-375]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 7 more
+[18:59:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:59:00] [Server thread/INFO]: Preparing level "world"
+[18:59:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:59:01] [Server thread/INFO]: Time elapsed: 193 ms
+[18:59:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:59:01] [Server thread/INFO]: Time elapsed: 68 ms
+[18:59:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:59:01] [Server thread/INFO]: Time elapsed: 83 ms
+[18:59:01] [Server thread/INFO]: Starting remote control listener
+[18:59:01] [Server thread/INFO]: Thread RCON Listener started
+[18:59:01] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[18:59:01] [Server thread/INFO]: Running delayed init tasks
+[18:59:01] [Server thread/INFO]: Done (2.422s)! For help, type "help"
+[18:59:01] [Server thread/INFO]: Timings Reset
+[19:02:15] [Server thread/INFO]: Stopping server
+[19:02:15] [Server thread/INFO]: Saving players
+[19:02:15] [Server thread/INFO]: Saving worlds
+[19:02:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:02:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[19:02:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[19:02:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[19:02:16] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world' in 1.09s
+[19:02:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:02:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[19:02:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[19:02:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[19:02:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[19:02:17] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.88s
+[19:02:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:02:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[19:02:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[19:02:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[19:02:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[19:02:17] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.13s
+[19:02:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:02:17] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:02:17] [Server thread/INFO]: Flushing Chunk IO
+[19:02:17] [Server thread/INFO]: Closing Thread Pool
+[19:02:17] [Server thread/INFO]: Closing Server
